@@ -33,7 +33,7 @@
 
 .input {
     height: 35px;
-    width: 60%;
+    /* width: 60%; */
     padding: 10px;
     margin-top: 10px;
     border: 1px solid #ccc;
@@ -53,4 +53,5 @@
 }
 .item{
     list-style: none;
+    padding-right: 200px;
 }
