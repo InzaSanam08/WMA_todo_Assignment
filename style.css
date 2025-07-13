@@ -1,36 +1,36 @@
-
-*{
+* {
     margin: 0%;
-    padding: 0%;    
+    padding: 0%;
 
-  font-family: poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600 ;
-  box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    box-sizing: border-box;
 
 }
 
-.todo-main-container{
+.todo-main-container {
     margin-top: 10px;
     text-align: center;
     display: flex;
     justify-content: center;
 }
+
 .todo-container {
-     height: 200px;
-     width: 300px;
-     align-items: center;
+    height: 200px;
+    width: 300px;
+    align-items: center;
     border-radius: 8px;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.main-heading{
+.main-heading {
     font-size: larger;
     color: rgb(0, 0, 0);
     align-items: center;
 }
 
-.input{
+.input {
     height: 35px;
     width: 60%;
     padding: 10px;
@@ -40,12 +40,12 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 10px;
 }
 
-.add-btn{
+.add-btn {
     background-color: rgb(0, 0, 0);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-        height: 30px;
-        width: 80px;
+    height: 30px;
+    width: 80px;
 }

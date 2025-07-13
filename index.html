@@ -12,12 +12,15 @@
 <body>
   <div class="todo-main-container">
     <div class="todo-container">
-     <p class="main-heading">TODO LIST</p>
-     <input class="input" type="text" placeholder="add your todo list">
-     <button class="add-btn">Add List</button>
+      <p class="main-heading">TODO LIST</p>
+      <input id="todoInput" class="input" type="text" placeholder="add your todo list">
+      <button onclick="addTodo()" class="add-btn">Add List</button>
+      <ul id="list"></ul>
     </div>
-
   </div>
+
+
+  <script src="java.js"></script>
 </body>
 
 </html>
