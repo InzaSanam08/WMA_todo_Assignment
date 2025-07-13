@@ -6,11 +6,3 @@ var inputVal = todoInput.value;
 list.innerHTML += `<li id='li'>${inputVal}`;
 todoInput.value = "";
 }
-
-
-// function deleteAll(){
-//     list.innerHTML = "";
-// }
-
-//<button onclick="deleteBtn()">Delete</button>
-//</li>
