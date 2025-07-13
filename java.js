@@ -10,6 +10,6 @@ todoInput.value = "";
 }
 
 
-function deleteAll(){
-    list.innerHTML = "";
-}
+// function deleteAll(){
+//     list.innerHTML = "";
+// }
